@@ -1,0 +1,56 @@
+﻿# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Kotlin
+.kotlin/
+**/.kotlin/
+
+# Android Studio e Gradle
+.gradle/
+**/.gradle/
+**/build/
+local.properties
+.idea/
+**/.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Assinatura do Android
+*.jks
+*.keystore
+
+# Datasets completos e arquivos brutos
+dados_brutos/
+dataset_completo/
+datasets/
+*.heic
+*.heif
+*.mp4
+*.mov
+*.avi
+
+# Modelos grandes
+*.keras
+*.h5
+saved_model/
+saved_model_inferencia/
+
+# Permitir o modelo móvel
+!modelos/*.tflite
+!aplicativo_android/**/app/src/main/assets/*.tflite
+
+# Sistema e arquivos temporários
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak

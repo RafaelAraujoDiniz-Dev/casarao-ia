@@ -1,0 +1,10 @@
+package br.com.casaraoia.ui.theme
+import androidx.compose.ui.graphics.Color
+val ColonialBlue=Color(0xFF173A58)
+val TileBlue=Color(0xFF2B718F)
+val HeritageGold=Color(0xFFC79A3B)
+val WarmBackground=Color(0xFFF8F4EC)
+val WarmSurface=Color(0xFFFFFBF4)
+val Graphite=Color(0xFF252525)
+val LightBlueContainer=Color(0xFFDDEAF4)
+val LightBlue=Color(0xFFAAC7E0)
